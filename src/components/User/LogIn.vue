@@ -1,15 +1,17 @@
 <template>
     <ion-page>
-        Login
+        <ToolBarVue />
+        <ion-content>
+            Login
+        </ion-content>
     </ion-page>
 </template>
 
 <script>
-import { IonPage } from '@ionic/vue';
+import { IonPage, IonContent } from '@ionic/vue';
+import ToolBarVue from '../../views/ToolBar.vue'
 
 export default {
-    components: {
-        IonPage
-    },
+    components: { ToolBarVue, IonPage, IonContent },
 }
 </script>

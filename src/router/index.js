@@ -12,6 +12,28 @@ const routes = [
     component: HomePage,
   },
   {
+    path: "/organize",
+    component: () => import("../components/Meetups/CreateMeetup.vue"),
+  },
+  {
+    path: "/view",
+    component: () => import("../components/Meetups/MeetUps.vue"),
+  },
+  {
+    path: "/view/:meetupId",
+    name: "meetupDetails",
+    props: true,
+    component: () => import("../components/Meetups/MeetupDetails.vue"),
+  },
+  {
+    path: "/login",
+    component: () => import("../components/User/LogIn.vue"),
+  },
+  {
+    path: "/register",
+    component: () => import("../components/User/SignUp.vue"),
+  },
+  {
     path: "/profile",
     component: () => import("../components/User/UserProfile.vue"),
   },

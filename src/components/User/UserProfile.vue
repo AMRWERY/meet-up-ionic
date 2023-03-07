@@ -1,11 +1,10 @@
 <template>
     <ion-page>
         <ToolBar />
-
         <ion-content>
             <ion-card>
                 <ion-card-header>
-                    <ion-card-title>Card Title</ion-card-title>
+                    <ion-card-title>Profile</ion-card-title>
                     <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
                 </ion-card-header>
                 <ion-card-content>
@@ -13,7 +12,6 @@
                 </ion-card-content>
             </ion-card>
         </ion-content>
-
     </ion-page>
 </template>
 
@@ -25,7 +23,12 @@ export default {
     components: {
         ToolBar,
         IonPage,
-        IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent
+        IonCard,
+        IonCardContent,
+        IonCardHeader,
+        IonCardSubtitle,
+        IonCardTitle,
+        IonContent
     },
 }
 </script>

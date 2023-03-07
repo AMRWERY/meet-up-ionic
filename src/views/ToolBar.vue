@@ -4,7 +4,7 @@
             <ion-buttons slot="start">
                 <ion-back-button text="Previous" :icon="caretBack" defaultHref="/"></ion-back-button>
             </ion-buttons>
-            <ion-title class="ion-text-center">Header Toolbar</ion-title>
+            <ion-title class="ion-text-center" router-link="/">dev - Meet Up</ion-title>
         </ion-toolbar>
     </ion-header>
 </template>
